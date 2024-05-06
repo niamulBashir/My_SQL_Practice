@@ -1,0 +1,13 @@
+use niamul_java;
+
+ALTER TABLE employdata ADD email VARCHAR (40);= Add new column in Table 
+
+ALTER TABLE employdata MODIFY email VARCHAR (40) AFTER emp_name ; Change the position of table
+
+ALTER TABLE employdata CHANGE email  email_info VARCHAR(40);Change the name of column
+
+ALTER TABLE employdata MODIFY email INT; Change the Data type of email;
+
+ALTER TABLE employdata DROP COLUMN email;  Delete the command;
+
+ALTER TABLE employdata RENAME employinfo; Rename table;

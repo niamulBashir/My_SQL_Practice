@@ -1,0 +1,2 @@
+TRUNCATE TABLE Tablename => Will delete all records of table bot not the table name and column;
+DROP TABLE Tablename => Will delete full table, no existcence of table;

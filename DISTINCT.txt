@@ -1,0 +1,1 @@
+SELECT  DISTINCT gender, id,name, age from student;=> will take unique gender only if same multiple geneder are exists.

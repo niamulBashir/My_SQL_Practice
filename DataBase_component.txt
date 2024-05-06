@@ -1,0 +1,7 @@
+We have two components in RDMBS 
+i) Client Componet  : Client component were query is written and connect to the server component with IP address. It is a aone kind of softwre where qure is written to store  the data in Server, retreive the data or manipulate The Data that is stored in server component.  Client componet has two Interfaces one is 
+a) GUI-> Graphical user Interface =>We can do query in Graphical interface
+b) CLI-< Command Line Interface=> we can work through Command line Interface.
+
+The client componet has query workbanch and CLI
+ii) Server Component: Where Data is stored in secured way by using Linus server or UI server. It places in Remote area .

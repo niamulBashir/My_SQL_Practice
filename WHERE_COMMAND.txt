@@ -1,0 +1,3 @@
+Where command is used to find specific data,
+
+SELECT * from studentinfo where age>=18;

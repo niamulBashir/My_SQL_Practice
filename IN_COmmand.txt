@@ -1,0 +1,2 @@
+SELECT id,name,age,city,phone FROM studentinfo where age IN (18,19);
+SELECT id,name,age,city,phone FROM studentinfo where age NOT IN (18,19);

@@ -1,0 +1,1 @@
+RDBMS : Relational Database Management System is also a DMBS but it stores Data in multile tables where thre is a relational between table in this way Data can be stored in more efficient and organized way.

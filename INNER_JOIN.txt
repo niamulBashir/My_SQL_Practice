@@ -1,0 +1,14 @@
+INNER JOIN take the common data between two table using foreign key and primary key .
+
+SELECT cloumns... FROM Tablename INNERJOIN Tablename ON tablename1.columnname(foreign key)=table2.column(Primary key
+
+
+use niamul_java;
+SELECT * FROM cityinfo INNER JOIN studentinfo ON studentinfo.city = cityinfo.cityid;
+use niamul_java;
+SELECT ID,name,age FROM studentinfo INNER JOIN cityinfo ON studentinfo.city = cityinfo.cityid;
+
+
+use niamul_java;
+SELECT s.ID,s.name,s.age, c.city FROM studentinfo s INNER JOIN cityinfo c ON s.city = c.cityid;
+..............................................

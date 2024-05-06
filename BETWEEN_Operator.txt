@@ -1,0 +1,4 @@
+Betwwen Operatore works as range 
+
+SELECT * FROM student WHERE age BETWEEN 18 AND 20;=> Will select all Data BETWEEN 18 to 20
+SELECT * FROM student WHERE name BETWEEN "R" AND "Z";=> will select all Data Between r and z of first lettr.

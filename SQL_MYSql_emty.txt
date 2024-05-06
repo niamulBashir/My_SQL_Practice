@@ -1,0 +1,4 @@
+Sql Is astructured Query Language.
+My sqL is RDBM. Relational Database Management system. When we rite a code in Sql it first goes to RDBMS system(mySql) then after some processing by RDBMS If (required) , then Data is stored in Storage system.
+
+Sql-><-RDMS-><-Storage system.

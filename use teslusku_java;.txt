@@ -1,0 +1,39 @@
+use teslusku_java;
+CREATE TABLE StudentInfo(
+ID INT NOT NULL ,
+name VARCHAR (40) NOT NULL,
+AGE VARCHAR(40) NOT NULL check(age>=18),
+phone VARCHAR(40) NOT NULL unique,
+cityID INT,
+PRIMARY KEY(ID),
+FOREIGN KEY(cityID) REFERENCES cityInfo(ID)
+);
+
+
+Another Table ...............X........................
+use teslusku_java;
+CREATE TABLE cityInfo(
+ID INT NOT NULL,
+city VARCHAR(40) NOT NULL,
+PRIMARY KEY (ID)
+);
+
+.............................................
+use teslusku_java;
+INSERT INTO cityInfo(ID,city)
+VALUES(2,"JOYPURHAT"),
+(3,"BOGURA"),
+(4,"DHAKA"),
+(5,"JBARISHAL");
+..............................................................................
+
+
+use teslusku_java;
+INSERT INTO studentinfo(ID,name,AGE,phone,cityID)
+VALUES(1,"Niamul",38,"0183581",2),
+(2,"Niamul",38,"0183581",2),
+(3,"Sobuj",39,"0183582",3),
+(4,"Rohit",22,"0183583",3),
+(5,"Rohan",25,"0183584",4),
+(6,"Ferdous",38,"0183585",5),
+(7,"NUR",38,"0183586",2);

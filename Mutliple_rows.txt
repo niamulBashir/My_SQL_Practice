@@ -1,0 +1,9 @@
+Use multiple rows in commandline-> just give the comma and all to be considered as single query;
+
+use niamul_java;
+INSERT INTO personalinfo(id,name,city,date_of_birth)
+VALUES (2,'sohan','Dhaka',"1988-08-13"),
+(3,'Ali','Dhaka',"1986-03-13"),
+(4,'niamul','Dhaka',"1985-03-13"),
+(5,'bashir','Dhaka',"1988-09-13");
+

@@ -1,0 +1,13 @@
+-> Got o My sql
+-> dowunload Community Version
+-> Got he the Installation
+-> Use custom
+->Then Select my ssql server, workbanch and command line
+-> Then Install default all
+-> Use Strong password system
+->Go to the dowanload drive , C drive -> programmes file-> My-Sql server -> bean-> copy the file path
+- go to the Environment setup
+-> Environment setup click-> click on Path-> the edit-> paste the copied file location
+-> ok all
+_> go the the command line -> write down -> mysql --version
+if show mysql version then successfully Installed.

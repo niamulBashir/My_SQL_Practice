@@ -1,0 +1,2 @@
+use niamul_java;
+UPDATE studentinfo SET age =20 WHERE age =19;=> update Tablename SET columnname where clause. Without where clauese it all update all data in the column.

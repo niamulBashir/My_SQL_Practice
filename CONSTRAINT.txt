@@ -1,0 +1,21 @@
+CONSTRAINT:
+We have several constraints
+NOT NULL= Value shoud not be null in column
+CHECK = condtion check
+DEFAULT=Deafult value of a specific column
+UNIQUE= Unique value of a specific coulmn
+
+
+CREATE TABLE studentInfo(
+id INT NOT NULL ,
+name VARCHAR(40) NOT NULL,
+age INT NOT NULL CHECK(age>=18),
+phone VARCHAR(40) NOT NULL UNIQUE,
+city VARCHAR(40) NOT NULL DEFAULT "DHAKA"
+);
+
+use niamul_java;
+
+INSERT INTO studentinfo(id,name,age,phone)
+VALUES(2,"BASHIR",19,"018998"),
+(3,"BASHIR",20,"0185657");

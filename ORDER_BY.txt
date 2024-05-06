@@ -1,0 +1,7 @@
+ORDER BY works for arrangeing data by asecending worder or descending order by comand "ORDER BY coulmn name ASC|| DESC "
+by default it works for ascending order if we only write coulmn name .
+
+SELECT  * from student ORDER BY name;=>
+
+SELECT  * from student  where age BETWEEN 20 AND 22
+ORDER BY age DESC; =>

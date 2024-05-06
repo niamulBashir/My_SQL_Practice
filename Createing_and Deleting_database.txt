@@ -1,0 +1,14 @@
+We can Create Database in two differnet ways.
+
+CREATE SCHEMA niamul_java
+CREATE DATABASE bashir_java
+
+We can delete databse :
+
+DROP DATABASE niamul_java
+DROP schema teslusku_java
+
+
+Create Database if not exists :It will creat a databse if not exists in the system.
+
+CREATE DATABASE  IF NOT EXISTS niamul_java

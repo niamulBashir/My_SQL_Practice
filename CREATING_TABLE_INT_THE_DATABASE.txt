@@ -1,0 +1,11 @@
+1. Take teh Database which database will be used.
+2. Create table name 
+3. Give column name and Datatype.
+
+use niamul_java;
+CREATE TABLE personalInfo(
+id INT,
+name VARCHAR(40),
+city CHAR,
+date_of_Birth DATE
+);

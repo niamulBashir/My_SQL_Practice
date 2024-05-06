@@ -1,0 +1,7 @@
+First give the dbname if you are noot in database,
+then give command INSERTINTO tablename (column names)
+VALUES(Give column name serially)
+
+use niamul_java;
+INSERT INTO personalinfo(id,name,city,date_of_birth)
+VALUES (1,'sujon','Dhaka',"1987-09-13");

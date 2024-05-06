@@ -1,0 +1,2 @@
+ROLLBACK is only works for update, delete and insert where "commit command is not given. IF we give commit command it will not work.it should work before the commit command.
+WE can do it cursor by cursor where the mouse is  pointing the line;

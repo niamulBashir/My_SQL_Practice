@@ -1,0 +1,4 @@
+SELECT id,name,age,city,phone FROM studentinfo where NOT (age= 20 or name ="Bashir");
+SELECT id,name,age,city,phone FROM studentinfo where  age= 20 or name ="Bashir";
+SELECT id,name,age,city,phone FROM studentinfo where  age= 20 and name ="Bashir";
+SELECT id,name,age,city,phone FROM studentinfo where NOT (age= 20 and name ="Bashir");

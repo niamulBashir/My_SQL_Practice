@@ -1,0 +1,3 @@
+Data: Any kind of Information | facts and figures.
+Database  : Storage Area | Colletion of Data.
+DBMS : Database Management System : Where data can stored organized way securely, Retreive the data and can be manipulate. Actullay it is Software.

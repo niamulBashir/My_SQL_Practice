@@ -1,0 +1,4 @@
+SELECT * FROM studentinfo;=> Will selcet all columns
+SELECT  id AS ID, age AS "STUDENT AGE" FROM  studentinfo;=> AS work as ALIAS column name
+SELECT id, age,phone FROM studentinfo;+> slect specific column.
+

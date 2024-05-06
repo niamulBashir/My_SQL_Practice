@@ -1,0 +1,3 @@
+use niamul_java;
+DELETE  FROM studentinfo WHERE  age = 18;=> will delete specific column;
+DELETE FROM studentinfo  will delete whole records;

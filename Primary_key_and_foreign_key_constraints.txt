@@ -1,0 +1,32 @@
+Primay key is the cloumne where data will be unique,  This the unique column where date will be unique per row, if ther is more columns primary coulmn will be only one.
+->unique data
+->can not have null value
+->A table can contain only one primaty key constraint.
+
+Foreign key : Links berween the two table.
+-> A foreign key in one table used to point PRIMARY KEY in another table;
+
+
+use niamul_java;
+CREATE TABLE studentinfo(
+ ID INT AUTO INCREMENT,
+name VARCHAR(40),
+age VARCHAR (40),
+city INT,
+PRIMARY KEY(ID),
+foreign key(city) references cityinfo(cityid)
+
+);
+
+
+use niamul_java;
+INSERT INTO studentinfo(id,name,age,city)
+VALUES(1,"ROHAN",23,1),
+(2,"ROHIT",23,2),
+(3,"ROBIN",23,5),
+(4,"SUJON",23,2),
+(5,"RAHUL",23,1);
+
+
+need add cityinfo also;
+

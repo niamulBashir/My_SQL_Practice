@@ -1,0 +1,25 @@
+Primay key is the cloumne where data will be unique,  This the unique column where date will be unique per row, if ther is more columns primary coulmn will be only one.
+->unique data
+->can not have null value
+->A table can contain only one primaty key constraint.
+
+
+
+use niamul_java;
+
+CREATE TABLE employData(
+id INT,
+emp_name VARCHAR(40),
+emp_age INT,
+emp_city VARCHAR(50),
+emp_date_of_birth DATE,
+PRIMARY KEY(id)
+);
+
+
+use niamul_java;
+INSERT INTO employdata (id,emp_name,emp_age,emp_city,emp_date_of_birth)
+VALUES(1,'sujon','40','Dhaka','1987-09-13'),
+(2,'sujon','40','Dhaka','1987-09-13'),
+(3,'sujon','40','Dhaka','1987-09-13'),
+(4,'sujon','40','Dhaka','1987-09-13');

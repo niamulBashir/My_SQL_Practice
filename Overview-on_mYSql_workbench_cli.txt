@@ -1,0 +1,5 @@
+We can create new connection.As This is saved in all local Computer than it works , There is option in Schema, 
+In Sql Schema is a database where in Oracle it is a subfolder of databese where tables are stored.Store the password in Vault. so that we can access the database at any time. 
+
+1.show databases;
+will show the four default Database.
